@@ -8,10 +8,7 @@ int main()
 	int **ppa; 		// pointer to a pointer to an int
 	
 	int b, *pb;
-	
-	pb = &b;
-	*pb = 45;
-	
+
 	pa = &a;
 	ppa = &pa;
 	
@@ -26,6 +23,11 @@ int main()
 	cout << "**ppa = " << **ppa << '\n';
 	
 	cout << '\n';
+	
+		
+	pb = &b;
+	*pb = 45;
+	
 	cout << "b = " << b << '\n';
 	
 	return 0;	
